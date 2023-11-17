@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+A quick and dirty standlone playbook to deploy ssh keys to all hosts.
 
 Requirements
 ------------
