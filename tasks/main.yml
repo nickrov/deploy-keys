@@ -1,0 +1,14 @@
+---
+# tasks file for deploy-keys
+- name: Public key is deployed to all managed hosts
+  hosts: all
+
+  tasks:
+    
+    - name: Ensure key is in devops ~/.ssh/authorized_hosts
+      ansible.posix.authorized_key:
+        user: devops
+        state: present
+        key: '{{ item }}'
+      with_file:
+        - ~/.ssh/id_rsa.pub
