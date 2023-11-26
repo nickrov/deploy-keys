@@ -12,7 +12,7 @@ Ansible 2.9 or higher
 Dependencies
 ------------
 
--- ansible.posix.authorized_key module --
+-- ansible.posix.authorized_key module -- /n
 
 ansible-galaxy collection install ansible.posix
 
