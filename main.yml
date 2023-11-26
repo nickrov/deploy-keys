@@ -1,5 +1,4 @@
 ---
-# tasks file for deploy-keys
 - name: Public key is deployed to all managed hosts
   hosts: all
 
