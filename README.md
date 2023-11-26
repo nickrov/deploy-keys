@@ -13,6 +13,7 @@ Dependencies
 ------------
 
 -- ansible.posix.authorized_key module --
+
 ansible-galaxy collection install ansible.posix
 
 
